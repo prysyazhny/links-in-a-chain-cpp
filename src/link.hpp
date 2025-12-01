@@ -1,15 +1,20 @@
+#pragma once
+
 #include <string>
 
-class Link {
-  private:
-    std::string material;
+class Link
+{
+private:
+  std::string material;
 
-  public:
-    Link(std::string material) {
-      this->material = material;
-    }
+public:
+  Link(std::string material)
+  {
+    this->material = material;
+  }
 
-    std::string get_material() {
-      return this->material;
-    }
-}
+  std::string get_material()
+  {
+    return this->material;
+  }
+};
